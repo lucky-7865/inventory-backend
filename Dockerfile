@@ -3,7 +3,7 @@ LABEL maintainer="lucky.kumar@aptusdatalabs.com"
 
 # The output from python will be directly printed out to the console, so that we can see the logs 
 # immediately as the container is running
-ENV PYTHONBUFFERED 1
+ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt /tmp/requirements.txt
 COPY ./requirements.dev.txt /tmp/requirements.dev.txt
