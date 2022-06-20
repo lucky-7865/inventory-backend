@@ -15,7 +15,6 @@ from core.models import (
 
 from recipe.serializers import (
     RecipeSerializer,
-    RecipeDetailSerializer,
 )
 
 
