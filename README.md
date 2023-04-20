@@ -44,10 +44,8 @@ Step 4: Start the server
 
 ```bash
   docker-compose up
-
-  The server will get Start on localhost:8080. You can access the documentation of the api on http://localhost:8000/api/docs/ while the server is ON
-
 ```
+The server will get Start on localhost:8080. You can access the documentation of the api on http://localhost:8000/api/docs/ while the server is ON
 ### The API documentation will looks like:
 You can play around with the APIs as per your need
   
